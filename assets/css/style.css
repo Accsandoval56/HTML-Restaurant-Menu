@@ -2,19 +2,23 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: beige;
     text-align: center;
+    background-image: url("/HTML-Restaurant-Menu/assets/images/slow-flame.png");
+    background-size: cover;
+    background-position: center;
+    
+
 }
 
 h1,
 h2 {
-    color: darkred;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1.0px;
+    -webkit-text-stroke-color: rgb(192, 25, 25); 
 }
 
-h3, 
-p,
 li {
-    color: green;
+    color: rgb(255, 255, 255);
 }
 
 img {
@@ -28,8 +32,11 @@ main {
 }
 
 nav {
-    background-color: beige;
-    padding: 10px;
+    
+    padding: 20px;
+    width: 100%;
+    background-color:rgb(255, 255, 255)
+
 }
 
 nav ul {
@@ -42,9 +49,9 @@ nav li {
 }
 
 nav a {
-    text-decoration: none;
-    font-size: 1.6em;
-    color: green;
+    text-decoration-thickness: 3px;
+    font-size: 2.0em;
+    color: rgb(193, 20, 20);
     margin-right: 25px;
 }
 
@@ -53,34 +60,52 @@ nav a:hover {
 }
 
 #banner {
-    width: 100%;
+    width: 55%;
     height: auto;
-    background-color: white;
+    padding: 10px;
+    border: 3px solid white; 
+
 }
 
 #banner img {
-    width: 60%;
+    width: 100%;
     height: auto;
 }
 
 .service {
     display: inline-block;
     background-color: white;
-    border: 5px solid green;
+    border: 5px solid rgb(172, 1, 1);
     border-radius: 5px;
     color: darkred;
-    font-size: 2em;
-    padding: 20px;
+    font-size: 1.5em;
+    padding: 10px;
     margin: 10px;
 }
 
 table {
     border: 3px solid black;
     width: 100%;
+
 }
   
 td,
 th {
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     padding: 5px;
+    color: white;
+}
+    
+footer{
+    color: white;
+}
+h3 {
+    color:rgb(216, 108, 49)
+}
+#turkey{
+    padding: 10px;
+    border: 3px solid white;
+}
+p {
+    color: white; 
 }
