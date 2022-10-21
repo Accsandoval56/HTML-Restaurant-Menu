@@ -1,111 +1,121 @@
 html,
 body {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-image: url("/HTML-Restaurant-Menu/assets/images/slow-flame.png");
-    background-size: cover;
-    background-position: center;
-    
-
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url("/HTML-Restaurant-Menu/assets/images/slow-flame.png");
+  background-size: cover;
+  background-position: center;
 }
 
 h1,
 h2 {
-    color: rgb(255, 255, 255);
-    -webkit-text-stroke: 1.0px;
-    -webkit-text-stroke-color: rgb(192, 25, 25); 
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: rgb(192, 25, 25);
 }
 
 li {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 main {
-    margin: 0 20%;
+  margin: 0 20%;
 }
 
 nav {
-    
-    padding: 20px;
-    width: 100%;
-    background-color:rgb(255, 255, 255)
-
+  padding: 20px;
+  width: 100%;
+  background-image: url(/HTML-Restaurant-Menu/assets/images/cotton.jpeg);
 }
 
 nav ul {
-    list-style-type: none;
-    text-align: center;
+  list-style-type: none;
+  text-align: center;
 }
 
 nav li {
-    display: inline;
+  display: inline;
 }
 
 nav a {
-    text-decoration-thickness: 3px;
-    font-size: 2.0em;
-    color: rgb(193, 20, 20);
-    margin-right: 25px;
+  font-size: 2em;
+  color: rgb(9, 230, 254);
+  margin-right: 25px;
 }
 
 nav a:hover {
-    color: darkred;
+  color: darkred;
 }
 
 #banner {
-    width: 55%;
-    height: auto;
-    padding: 10px;
-    border: 3px solid white; 
-
+  width: 55%;
+  height: auto;
+  padding: 10px;
+  border: 1.5px solid white;
 }
 
 #banner img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .service {
-    display: inline-block;
-    background-color: white;
-    border: 5px solid rgb(172, 1, 1);
-    border-radius: 5px;
-    color: darkred;
-    font-size: 1.5em;
-    padding: 10px;
-    margin: 10px;
+  display: inline-block;
+  background-color: white;
+  border: 5px solid rgb(15, 132, 216);
+  border-radius: 5px;
+  color: darkred;
+  font-size: 1.5em;
+  padding: 10px;
+  margin: 10px;
 }
 
 table {
-    border: 3px solid black;
-    width: 100%;
-
+  border: 3px solid black;
+  width: 100%;
 }
-  
+
 td,
 th {
-    border: 1px solid rgb(255, 255, 255);
-    padding: 5px;
-    color: white;
+  border: 1.5px solid rgb(0, 192, 250);
+  padding: 5px;
+  color: white;
 }
-    
-footer{
-    color: white;
+
+footer {
+  color: white;
 }
+
 h3 {
-    color:rgb(216, 108, 49)
+  color: rgb(32, 169, 242);
 }
-#turkey{
-    padding: 10px;
-    border: 3px solid white;
+
+#turkey {
+  padding: 1.9px;
 }
+
 p {
-    color: white; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: rgb(97, 186, 245);
+  -webkit-text-stroke: 0.9px red;
+}
+#turkey-dinner {
+  padding: 1.9px;
+  height: auto;
+  max-width: 55%;
+  max-height: auto;
+}
+#vintage-eat {
+  padding: 1.9px;
+  height: auto;
+  max-width: 55%;
+  max-height: auto;
 }
